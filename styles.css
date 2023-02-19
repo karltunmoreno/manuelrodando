@@ -17,9 +17,7 @@ header {
   /*display: flex;  off for centering*/
   justify-content: space-between;
   flex-wrap: wrap;
-
   top: 0;
-
   background-position: center;
 
   z-index: 9999;
@@ -423,7 +421,7 @@ footer {
 }
 
 /*Desktop WRITE HERE View*/
-@media (min-width: 1020px) {
+@media (min-width: 1024px) {
   body {
     max-width: 1200px;
   }
@@ -432,10 +430,10 @@ footer {
     font-size: 58px;
   }
 
-  img {
+  /*img {
     max-width: 100%;
     height: auto;
-  }
+  }*/
 
   .style-nav {
     float: center;
@@ -480,7 +478,7 @@ footer {
     margin-bottom: 105px;
   }
 
-  img {
+  /*  img {
     overflow-clip-margin: content-box;
     overflow: clip;
   }
@@ -522,7 +520,7 @@ footer {
   .card-img-top {
     width: 100%;
     image-resolution: 100%;
-  }
+  }*/
 
   header {
     padding-top: 1px;
