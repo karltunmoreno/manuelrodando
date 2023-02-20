@@ -163,6 +163,9 @@ p {
 @media (min-width: 768px) {
   body {
     max-width: 778px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #e6f4f8;
   }
 
   .style-nav ul li {
@@ -197,6 +200,9 @@ p {
 @media (min-width: 1024px) {
   body {
     max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #e6f4f8;
   }
 
   .style-logo {
@@ -208,7 +214,7 @@ p {
   }
 
   .col-lg-one-fourth {
-    width: 100%;
+    width: 25%;
   }
 }
 
